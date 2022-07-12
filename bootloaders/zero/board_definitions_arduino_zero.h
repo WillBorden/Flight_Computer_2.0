@@ -61,7 +61,6 @@
 
 /* Frequency of the board main oscillator */
 #define VARIANT_MAINOSC                   (32768ul)
-#define CRYSTALLESS                       (1)
 
 /* Calibration values for DFLL48 pll */
 #define NVM_SW_CALIB_DFLL48M_COARSE_VAL   (58)

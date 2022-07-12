@@ -128,10 +128,10 @@ void analogReference(eAnalogReference mode)
 int analogRead(pin_size_t pin)
 {
   uint32_t valueRead = 0;
-  //this little bit has to be commented out, as we aren't defining A0 or anything like that in our boards
-  /*if (pin < A0) {
+
+  if (pin < A0) {
     pin += A0;
-  }*/
+  }
 
   pinPeripheral(pin, PIO_ANALOG);
 
