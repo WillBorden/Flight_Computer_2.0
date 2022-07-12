@@ -205,5 +205,7 @@ unsigned int PINCOUNT_fn();
 #define SERIAL_PORT_HARDWARE        Serial1
 #define SERIAL_PORT_HARDWARE_OPEN   Serial1
 
+#define Serial  SerialUSB //our board doesn't have a uart port set up like most arduinos so we can only use SerialUSB, this just makes it so we don't have to worry about that
+
 #endif /* _VARIANT_ARDUINO_ZERO_ */
 
