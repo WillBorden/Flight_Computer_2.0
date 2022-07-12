@@ -1,0 +1,17 @@
+{
+  "name": "framework-flight-computer",
+  "version": "1.0.0",
+  "description": "Framework for the use of Platform.io to program ARES Flight Computers, created by Will Borden",
+  "keywords": [
+    "framework",
+    "arduino",
+    "microchip",
+    "samd"
+  ],
+  "homepage": "https://eng.unimelb.edu.au/ares",
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillBorden/Flight_Computer_2.0"
+  }
+}
