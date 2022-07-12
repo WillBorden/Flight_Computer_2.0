@@ -92,7 +92,8 @@ static const uint8_t drogue_fire = DROGUE_FIRE;
 static const uint8_t main_fire = MAIN_FIRE;
 
 #define ADC_RESOLUTION		12
-#define A0    0 //this isn't used, however the analogRead function uses it so defining it here means no modifications to the local arduino core are necessary
+#define PIN_A0    0 //this isn't used, however the analogRead function uses it so defining it here means no modifications to the local arduino core are necessary
+static const uint8_t A0  = PIN_A0;
 
 //LED pin name definitions
 #define PIN_LED_R            (4ul)
