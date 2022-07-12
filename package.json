@@ -1,5 +1,5 @@
 {
-  "name": "framework-flight-computer",
+  "name": "framework-arduino-samd",
   "version": "1.0.0",
   "description": "Framework for the use of Platform.io to program ARES Flight Computers, created by Will Borden",
   "keywords": [
