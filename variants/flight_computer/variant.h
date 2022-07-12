@@ -82,7 +82,7 @@ extern "C" unsigned int PINCOUNT_fn();
 // #define digitalPinToTimer(P)
 
 //pyro pin name definitions
-#define DROGUE_SENSE         (0ul)
+#define DROGUE_SENS         (0ul)
 #define MAIN_SENSE           (1ul)
 #define DROGUE_FIRE          (2ul)
 #define MAIN_FIRE            (3ul)
