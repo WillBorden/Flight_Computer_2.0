@@ -86,10 +86,12 @@ extern "C" unsigned int PINCOUNT_fn();
 #define MAIN_SENSE           (1ul)
 #define DROGUE_FIRE          (2ul)
 #define MAIN_FIRE            (3ul)
+#define BATTERY_MEASURE      (21ul)
 static const uint8_t drogue_sense = DROGUE_SENSE;
 static const uint8_t main_sense = MAIN_SENSE;
 static const uint8_t drogue_fire = DROGUE_FIRE;
 static const uint8_t main_fire = MAIN_FIRE;
+static const uint8_t battery_measure = BATTERY_MEASURE;
 
 #define ADC_RESOLUTION		12
 #define PIN_A0    (0u) //this isn't used, however the analogRead function uses it so defining it here means no modifications to the local arduino core are necessary
