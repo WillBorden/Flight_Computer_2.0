@@ -94,7 +94,7 @@ static const uint8_t main_fire = MAIN_FIRE;
 static const uint8_t battery_measure = BATTERY_MEASURE;
 
 #define ADC_RESOLUTION		12
-#define PIN_A0    (0u) //this isn't used, however the analogRead function uses it so defining it here means no modifications to the local arduino core are necessary
+#define PIN_A0    (0u) //I'm pretty sure we don't need this anymore, but I'm keeping it as a good luck charm cos it fixed a bug I wasted like 6 hours on
 static const uint8_t A0  = PIN_A0;
 
 //LED pin name definitions
