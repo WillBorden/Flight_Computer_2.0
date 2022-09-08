@@ -98,8 +98,8 @@ static const uint8_t battery_measure = BATTERY_MEASURE;
 static const uint8_t A0  = PIN_A0;
 
 //LED pin name definitions
-#define PIN_LED_R            (4ul)
-#define PIN_LED_G            (5ul)
+#define PIN_LED_R            (5ul)
+#define PIN_LED_G            (4ul)
 #define PIN_LED_B            (6ul)
 static const uint8_t LED_R = PIN_LED_R;
 static const uint8_t LED_G = PIN_LED_G;
