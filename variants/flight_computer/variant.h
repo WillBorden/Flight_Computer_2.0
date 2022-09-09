@@ -104,6 +104,10 @@ static const uint8_t A0  = PIN_A0;
 static const uint8_t LED_R = PIN_LED_R;
 static const uint8_t LED_G = PIN_LED_G;
 static const uint8_t LED_B = PIN_LED_B;
+  
+//buzzer pin name definition
+#define PIN_BUZZER           (22ul)
+static const uint8_t BUZZER = PIN_BUZZER;
 
 /*
  * SPI Interfaces
