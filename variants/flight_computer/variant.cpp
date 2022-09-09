@@ -156,7 +156,7 @@ const PinDescription g_APinDescription[]=
   { PORTA,  2, PIO_ANALOG, (PIN_ATTR_ANALOG), ADC_Channel0, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_2 }, // ADC/AIN[0]                                   pin 21
   
   //PB03 - buzzer pin
-  { PORTB,  3, PIO_OUTPUT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM|PIN_ATTR_TIMER), No_ADC_Channel, PWM3_CH3, TCC3_CH3, EXTERNAL_INT_3 }, //TCC3/WO[3]           pin 22
+  { PORTB,  3, PIO_OUTPUT, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM|PIN_ATTR_TIMER), No_ADC_Channel, PWM2_CH3, TCC2_CH3, EXTERNAL_INT_3 }, //TCC3/WO[3]           pin 22
   
   //other pins definitions - unchanged from Arduino Zero definitions (none of these are connected anyways)
   // ----------------------
