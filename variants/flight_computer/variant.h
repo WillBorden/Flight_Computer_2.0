@@ -133,8 +133,8 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 #define PIN_SD_SPI_MISO    (9u)
 #define PIN_SD_SPI_CS      (10u)
 #define PERIPH_SD_SPI   sercom2
-#define PAD_SD_SPI_TX   SPI_PAD_0_SCK_3
-#define PAD_SD_SPI_RX   SERCOM_RX_PAD_1
+#define PAD_SD_SPI_TX   SPI_PAD_0_SCK_1
+#define PAD_SD_SPI_RX   SERCOM_RX_PAD_2
 static const uint8_t SD_CS   = PIN_SD_SPI_CS;
 static const uint8_t SD_MOSI = PIN_SD_SPI_MOSI;
 static const uint8_t SD_MISO = PIN_SD_SPI_MISO;
